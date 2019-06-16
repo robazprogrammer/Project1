@@ -1,0 +1,153 @@
+body{
+    background: url(../images/44423-restos.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+#recent-view{
+
+    background-color: #7d7268;
+    color: black;
+}
+#restaurant-table{
+    padding: 5px;
+    background-color: #7d7268;
+    color:black;
+    font-size: 25px;
+    margin:0;
+}
+.uk-table th{
+    font-size: 20px;
+    text-decoration: underline;
+}
+*+.uk-table{
+    margin-top:5px;
+}
+#city-search.uk-search{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+#search-city-input{
+    min-width: 50px;
+}
+#search-btn{
+    color: black;
+    background-color: rgba(35, 122, 32, 0.8);
+    border: solid 1px white;
+}
+
+.wrap::before {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    content: '';
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.heading-text {
+    font-weight: 900;
+    color:rgb(235, 221, 141);
+}
+.lead {
+    font-size: 1.175em;
+    font-weight: 300;
+}
+
+.uk-logo img {
+    margin-top:25px;
+    height: 28px;
+}
+
+.margin-top{
+    margin-top: 2em;
+}
+.margin-bottom{
+    margin-bottom: 2em;
+}
+
+/* .recent-header {
+    font-size: 1.05em;
+    font-weight: 300;
+    color: #310802;    
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.6);
+} */
+/* TODO STYLE THE CARDS */
+.restaurant-card {
+    cursor: pointer;
+    border: solid 1px #005312;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.card-body{
+   color: black; 
+   text-align: center;
+}
+
+.r-modal{
+    background-color:rgb(78, 78, 78);
+    color: black;
+
+}
+.r-modal-header{
+    background-color:rgb(78, 78, 78);
+}
+
+.r-table{
+
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* .footer{ */
+    /* border: solid 1px #92DD19; */
+/* } */
+
+#map {
+    height: 350px;
+    width: 250px;
+  }
+  
+  #star{
+      color:green;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  #logo{
+    width: 200px;    
+    border: solid 1px #92DD19;
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ #searchOne{
+     z-index: -1000;
+ }
